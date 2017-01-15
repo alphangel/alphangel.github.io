@@ -6,16 +6,17 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
+theme                    : minimal-mistakes-jekyll
 locale                   : "en"
-title                    : "Site Title"
+title                    : "AlphAngel"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "AlphAngel"
+description              : "Lessons in all form of investments, from capital markets to angel investing!"
+url                      : https://alphangel.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+repository               : alphangel/alphangel.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/assests/images/background.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -55,7 +56,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : IamAlphAngel
 facebook:
   username               :
   app_id                 :
@@ -77,11 +78,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Fabien"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  bio              : "I've worked in the investment industry for over 17 years. I've met countless great investors and less so, but every time I've learned from them or sometimes simply from my mistakes."
+  location         : "Geneva"
+  email            : fabien@alphangel@com
   uri              :
   bitbucket        :
   codepen          :
@@ -174,7 +175,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/Paris
 
 
 # Plugins
