@@ -17,7 +17,3 @@ I'm curious and I have an expriemntal mind so I started testing a gathering info
 
 This is this my attempt, with first principles we always go back to the why? So here today I will answer investment whys!
 
-# Why taking an interest in your finance is critical?
-
-fees
-
