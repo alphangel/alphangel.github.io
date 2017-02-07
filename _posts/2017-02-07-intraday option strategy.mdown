@@ -1,0 +1,73 @@
+---
+layout: single
+header:
+    #image: /assets/images/wall_street.jpg
+    #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+title: "Intraday option strategy"
+tags:
+  - options
+  - strategy
+  - advanced strategy
+  - active investment
+  - day trading
+---
+
+This strategy is an intraday directionnal momentum strategy based on options, it is not for the faint of hearts as the swings can be quite big, the up side is in 10s of percent but so is the downside... though statistically we tend to be more right with bigger upside which is why it is successful.
+
+Note that this strategy does not scale up very well if we add too much volume then the spread widen and eat up some of our precious point percent but I'll come back to that!
+
+I use it to pay the bills! I usually generate a few hundred dollars in 30 minutes at the opening but this play can be applied at any time during the day as explained at the end of the article!!
+
+## Screening for opportunities
+I have not found a tool that allows me to scan for stocks with tight option spread, large daily swing and gaps so I basically have a few reasonably volatile stocks that I monitor for opportunities.
+I use AAPL, NFLX, NVDA at the moment, they have relatively tight spread and tend to move more than the index tracking ETF options. 
+There is a case for stocks with [earnings as described below](## Earning play)
+
+## Selecting the option to trade
+This is a 2 prong problem?
+- which direction : call or put?
+- which strike?
+
+### Which direction?
+I usually look at pre-market trading, if it tends to be higher or lower than the close then I position and prepare my orders in the same direction
+- call if premarket higher than close
+- put if premarket lower than close
+
+Please note that the move has to be more than a few basis points to be significant.
+
+I also look at the direction of the futures/market both S&P and NASDAQ, if they tend to go in the same direction, that is a confirmation that my position could be strong, if it is opposite it prompts me to be careful and take my profit quickly.
+
+If there is no clear direction on the stock pre-market, I watch for the direction of the market and then prepare my orders accordingly put if the market is [bearish](/concepts/bear-bull/) call otherwise as the market tend to be [long biased](/concepts/long-biased/). I then wait for the fist 1 or 2 minutes for confirmation of the direction.
+
+### Which strike?
+We want leverage! so we try to have strike that give us cheap upside/downside [delta/gamma](/concepts/greeks/).
+
+The idea is that if the stock goes down we want the option to decrease at a slower rate than on the upside (for a call of course and opposite for a put!).
+
+I usually select a call slightly out of the money for the shorted maturity available as they usually have more volume and tighter spreads.
+There are 3 things to look for in your strike selection, in order of importance:
+- tight bid/ask spread, less than 4% of nominal, yes that's a lot expressed like that! than means on a option trading around 1$, the bid ask spread should be 3 cts tops!
+- Volume: high volume on the previous day for that strike means it is more likely to be liquid and keep tight spreads, note that if the price moved a lot the previous day or premarket volume indication need to be adjusted
+- Open interest: similarly to volume, this helps us figuring out strikes that are likely to be more liquid.
+
+In the end I found it optimal to have a strike that gives me a [premium](/concepts/premium/) around 1$, but I will sometime play with higher strikes when the {volatility](/concepts/volatility/)is high and as long as the spreads are within the boundaries of 3%.
+
+## Implementing the strategy
+
+### Opening the position
+Now we know what we want to do, unless the markets and stocks have shown a lot of bullishness I will wait the second candle confirmation for entry in the strategy.
+
+If I go bull and get in on the first candle, then I will have my stop loss and trailing order ready as it could pull back very quickly if you have strong move. Note that it is not uncommon to have a huge green candle on the first 1 to 5 minutes with a big pull back and then back up, in which case if I got in early my trailing stop will kick in and I may reconsider re-entry for a second play if the volumes are there.
+
+### Closing the position
+
+
+select option with price between .50 and $1, fixed stop loss at 10 cts which would represent for 10 contracts 100$ loss
+exit?
+2 options
+1. half contracts at 20 cts gain, and then stop loss @ cost + 3cts for slippage
+2. trailing stop @ 10 cts, but only activate if we go above 10cts? or 20 cts? and market conditions are good? that is subjective so lets review examples
+FIB level on the stock look like they could be an interesting indication of the breakout levels or resistance points
+
+
+## Earning play

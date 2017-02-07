@@ -3,9 +3,15 @@ layout: single
 header:
     #image: /assets/images/wall_street.jpg
     #caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+title:  Why taking an interest in your finance is critical?
+tags:
+  - investment
+  - portfolio
+  - fees
+  - rebalancing
+  - robo-advisor
+  - portfolio building
 ---
-
-# Why taking an interest in your finance is critical?
 
 It boils down to [fees](/concepts/fees/) and [tracking errors](/concepts/tracking_error/).
 
@@ -36,12 +42,13 @@ Now that means that when you retire, you may face yourself with only half the mo
 
 I should just stop here, if you are not yet convinced you should go back to your banker's website!
 
-## Rebalacing what???
+## Rebalancing what???
 Now rebalancing is very common ... As per investment guidelines, you are to be exposed a maximum of 20% technology, 10% financial sectors or a maximum of 25% to Europe, this depends on the funds/mandates. However, depending on how it is down this can have a terrible effect on your finance, let's review:
 - some funds have entry fee/exit fees, so rebalancing takes a toll on your performance again
 - if a sector region is doing very well, by rebalancing, you are cutting its upside to move it back to less performing asset classes, this is one of the primary reason why rebalancing should be done very little no more than once a year and ideally not on the 31st of December as everybody does it and this can skew he rebalancing itself!
 - Now what happened to me, is the worst case, some regions were doing poorly and volatility was very high so they decided to move asset to a less volatile asset class from equity to bonds but after most of the damage happened which ended up affecting the recovery of my portfolio as I was no longer as much exposed to the equity markets which recovered after February 2016 and I ended up paying huge fund fees
 
+## To conclude
 In a nutshell you need to make sure you understand the mechanics of rebalancing your portfolio, rebalancing itself is not a bad thing, an asset class that goes up a lot will eventually go back down and if it goes down 50% you need 100 performance to recover, so rebalancing helps to take profit. SO how do you do it? well it will be the in-depth topic of another post but basically, you don't try to time the market and do it at a maximum of twice a year if the balance between asset class has really changed and at fixed date which will save you from the pitfall of "timing" the market, if you knew how to do that you would not need to rebalance, you could just play the market at will and be rich beyond your wildest dreams!!!
 
 

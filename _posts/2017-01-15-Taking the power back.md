@@ -3,8 +3,12 @@ layout: single
 header:
     image: /assets/images/wall_street.jpg
     caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+title:  Taking the power back
+tags:
+  - investment
+  - portfolio
 ---
-# Taking the power back
+
 I've been working in the financial industry for the past 17 years, I started modeling financial models and risk scenarios for a software vendor.
 Doing some consulting work for banks and hedge funds to end up CTO a a large hedge fund in Europe after refusing a position as a volatility trader! I've seen a lot of the industry from various angles.
 
